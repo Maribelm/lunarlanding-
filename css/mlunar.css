@@ -1,0 +1,95 @@
+body,html{height:100%;padding:0px;margin:0px}
+	
+body{background:url("../img/fondo.jpg") no-repeat center fixed; background-size: 100% 100%;}
+
+.a{position:absoulute; float:left;}
+.b{text-align:center;}
+.c{position:absolute;}
+.d{position: absolute;}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;}
+
+#botones{
+	position:absolute;
+	top:20px;
+	padding:0px;
+}		
+
+.play {
+	background-image:url("../img/play2.png");
+	position:relative;
+	width:50px;
+	height:50px;
+	left:20px;
+	top:10px;
+	float:left;
+}
+
+.pausa {
+	background-image:url("../img/pausa2.png");
+	position:relative;
+	width:50px;
+	height:50px;
+	left:40px;
+	top:10px;
+	float:left;
+}
+
+.opciones {
+	background-image:url("../img/opciones2.png");
+	position:relative;
+	width:50px;
+	height:50px;
+	left:70px;
+	top:10px;
+	float:left;
+}
+
+#cpanel ul{color: White;position:relative;Font-family:"lucida console";padding-left:5px;}
+
+.nave{
+	position:relative;
+	background:url("../img/nave2.png") no-repeat;
+	height:140px;
+	width:70px;
+	margin:0 auto;
+}
+
+#luna{
+	position:fixed;
+	height:10%;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+
+#base{
+	background-image:url("../img/luna2.png");
+	position:relative;
+	}
+	
+#ventanaopciones2{
+	position:fixed;
+	top:20%;
+	bottom:0%;
+	left:20%;
+	right:20%;
+	border:1px solid yellow;
+	Font-size:15px;
+	text-align:center;
+	font-family:"lucida console";
+	color:yellow;
+	background-color:black;
+}
+
+.reiniciar{
+	background-image:url("../img/restart2.png");
+	position:relative;
+	width:50px;
+	height:50px;
+	float:center;
+	margin:0 auto;
+	top:30%;
+}
+
+#ventanaopciones{display:none;}
